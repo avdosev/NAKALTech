@@ -1,27 +1,44 @@
-* {
-    font-family: "Open Sans",sans-serif;
+ html,
+body {
+  margin: 0;
+  background-color: white;
+}
+
+.title {
+    background-image: url(images/alexander-tsang-1322912-unsplash.jpg);
+    background-size: cover;
+    height: 500px;
+    color: white;
+    font-family: Candara;
+    font-size: 50px;
+    text-align: center;
+    padding: 3vh ;
+     
+    
+}
+
+section.title h1 {   
+    font-weight: 800; 
+    /* mix-blend-mode: color-dodge;  */
 }
 
 .layout_header {
-    padding: 13px 0px;
-    text-align: center;
+    background-color: bisque;
+}
+.about {
+    background-color: darkorange;
+} 
+
+
+.main {
+
 }
 
-.layout_header .inner {
-    margin: auto;
-    max-width: 1000px;
-}
-
-.layout_header a.logo {
-    float: left;
-}
-
-.layout_header nav {
-    float: right;
-}
-
-.layout_header nav a {
-    padding: 0 40px;
+.mainBtn {
     text-decoration: none;
-    color: black;
+    color: inherit;
+    background-color: brown;
+    border: 1px;
+    border-radius: 3px;
+    width: 150px;
 }
