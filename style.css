@@ -2,29 +2,41 @@
 body {
   margin: 0;
   background-color: white;
+  font-family: Candara;
+}
+h1 {
+    margin: 0;
+    
 }
 
 .title {
     background-image: url(images/alexander-tsang-1322912-unsplash.jpg);
+    /* background-color: green; */
     background-size: cover;
     height: 500px;
     color: white;
-    font-family: Candara;
     font-size: 50px;
-    text-align: center;
-    padding: 3vh ;
-     
-    
+     text-align: center; 
+     padding: 3vh ;  
 }
 
 section.title h1 {   
-    font-weight: 800; 
-    /* mix-blend-mode: color-dodge;  */
+   font-weight: bold; /* не ебу почему не робит */
+   mix-blend-mode: color-dodge;  /*но эта надпись будет адаптивной, что круто */
+margin-top: 15vh; /* Выровнять по вертиклаьному центру в соответствии с идеалогией ФЛЕКСА */
 }
 
 .layout_header {
+    margin: auto; /*бля не люблю центровку, но придется ебать */
     background-color: bisque;
+    display: flex;
+     justify-content: space-between; 
+    width: 1300px;
 }
+.layout_header.nav {
+    /* flex-grow: 3; */ /* тут надо ебенить отступы мжеду элементами нава */
+}
+
 .about {
     background-color: darkorange;
 } 
@@ -41,4 +53,13 @@ section.title h1 {
     border: 1px;
     border-radius: 3px;
     width: 150px;
+
+}
+
+.mainBtn:hover {
+    background-color: red;
+}
+
+h1 {
+    
 }
