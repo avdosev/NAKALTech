@@ -1,0 +1,27 @@
+* {
+    font-family: "Open Sans",sans-serif;
+}
+
+.layout_header {
+    padding: 13px 0px;
+    text-align: center;
+}
+
+.layout_header .inner {
+    margin: auto;
+    max-width: 1000px;
+}
+
+.layout_header a.logo {
+    float: left;
+}
+
+.layout_header nav {
+    float: right;
+}
+
+.layout_header nav a {
+    padding: 0 40px;
+    text-decoration: none;
+    color: black;
+}
