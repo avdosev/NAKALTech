@@ -4,26 +4,33 @@
 
 .layout_header {
     padding: 13px 0px;
-    text-align: center;
+    display: flex;
+    align-items: center;
 }
 
 .layout_header .inner {
-    margin: auto;
+    display: flex;
     max-width: 1000px;
 }
 
 .layout_header a.logo {
-    float: left;
+    text-decoration: none;
+    color: rgb(126, 51, 78);
+    font-size: 34px;
+    display: flex;
+    justify-content: start;
 }
 
 .layout_header nav {
-    float: right;
+    display: flex;
+    align-items: center;
+    margin-left: auto;
 }
 
 .layout_header nav a {
-    padding: 0 40px;
     text-decoration: none;
     color: black;
+    padding: 0 23px;
 }
 
 section.about {
