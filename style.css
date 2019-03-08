@@ -1,5 +1,6 @@
 * {
     font-family: "Open Sans",sans-serif;
+    text-decoration: none;
 }
 
 .layout_header {
@@ -10,15 +11,15 @@
 
 .layout_header .inner {
     display: flex;
-    max-width: 1000px;
+    flex: 1 1 auto !important;
+    justify-content: center;
 }
 
 .layout_header a.logo {
-    text-decoration: none;
     color: rgb(126, 51, 78);
-    font-size: 34px;
+    font-size: 5rem;
     display: flex;
-    justify-content: start;
+    margin-right: auto;
 }
 
 .layout_header nav {
@@ -28,28 +29,35 @@
 }
 
 .layout_header nav a {
-    text-decoration: none;
     color: black;
-    padding: 0 23px;
+    padding: 0 1.5rem;
 }
 
-section.about {
-    text-align: center;
+.layout_about {
+    display: flex;
+    justify-content: center;
 }
 
-section .about h1 {
-    margin: 110px 0 20px;
-    padding: 0;
-    font-size: 62px;
+.layout_about section.about {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.layout_about section.about h1 {
     font-weight: 200;
     color: black;
 }
 
-section.about p {
-    margin: 0 auto;
-    padding: 0;
+.layout_about section.about p {
     font-size: 20px;
     line-height: 36px;
     font-weight: 300;
     color: black;
+}
+
+footer.layout_footer .inner {
+    display: flex;
+    justify-content: space-around;
 }
