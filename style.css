@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans:700&subset=cyrillic');
+
 * {
-    font-family: "Open Sans",sans-serif;
+    font-family: sans-serif;
     text-decoration: none;
 }
 
@@ -7,6 +9,7 @@
     padding: 13px 0px;
     display: flex;
     align-items: center;
+    background: black;
 }
 
 .layout_header .inner {
@@ -16,10 +19,12 @@
 }
 
 .layout_header a.logo {
-    color: rgb(126, 51, 78);
-    font-size: 5rem;
+    color: rgb(189, 168, 209);
+    font-size: 80px;
+    padding: 0rem 1rem;
     display: flex;
     margin-right: auto;
+    font-family: 'PT Sans';
 }
 
 .layout_header nav {
@@ -29,13 +34,15 @@
 }
 
 .layout_header nav a {
-    color: black;
+    color: whitesmoke;
     padding: 0 1.5rem;
 }
 
 .layout_about {
     display: flex;
     justify-content: center;
+    background-image: url(img/white-abstract-wallpaper-1080p-2048x1152.jpg);
+    height: 800px;
 }
 
 .layout_about section.about {
