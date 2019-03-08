@@ -3,10 +3,16 @@ body {
   margin: 0;
   background-color: white;
   font-family: Candara;
+  color: white;
+    text-decoration: none;
+  
 }
 h1 {
     margin: 0;
-    
+}
+a {
+    text-decoration: none;
+    color: white;
 }
 
 .title {
@@ -14,29 +20,40 @@ h1 {
     /* background-color: green; */
     background-size: cover;
     height: 500px;
-    color: white;
-    font-size: 50px;
+    /* color: white; */
+    font-size: 30px;
      text-align: center; 
      padding: 3vh ;  
+     /* filter: blur(1px);  */
+
 }
 
 section.title h1 {   
-   font-weight: bold; /* не ебу почему не робит */
-   mix-blend-mode: color-dodge;  /*но эта надпись будет адаптивной, что круто */
-margin-top: 15vh; /* Выровнять по вертиклаьному центру в соответствии с идеалогией ФЛЕКСА */
+    font-weight: bold; /* не ебу почему не робит */
+    mix-blend-mode: color-dodge;  /*но эта надпись будет адаптивной, что круто */
+    margin-top: 15vh; /* Выровнять по вертиклаьному центру в соответствии с идеалогией ФЛЕКСА */
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 70px;
 }
 
 .layout_header {
-    margin: auto; /*бля не люблю центровку, но придется ебать */
-    background-color: bisque;
+    background-color: #434343;
     display: flex;
-     justify-content: space-between; 
-    width: 1300px;
+    justify-content: space-between; 
+    height: 50px;
+    font-size: 30px;
+    /* background: linear-gradient(#E5E4E4, rgb(62, 73, 70)); */
+    /* box-shadow: 0 0 5px rgba(0,2,20,50); */
+    /* filter: blur(1px); */
 }
 .layout_header.nav {
     /* flex-grow: 3; */ /* тут надо ебенить отступы мжеду элементами нава */
 }
-
+.logo {
+    font-size: 40px;
+    margin-left: 150px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
 .about {
     background-color: darkorange;
 } 
@@ -48,7 +65,7 @@ margin-top: 15vh; /* Выровнять по вертиклаьному цент
 
 .mainBtn {
     text-decoration: none;
-    color: inherit;
+     color: inherit; 
     background-color: brown;
     border: 1px;
     border-radius: 3px;
@@ -60,6 +77,6 @@ margin-top: 15vh; /* Выровнять по вертиклаьному цент
     background-color: red;
 }
 
-h1 {
-    
+h3 {
+    mix-blend-mode: color-dodge;  
 }
