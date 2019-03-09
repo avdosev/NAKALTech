@@ -64,11 +64,20 @@ body {
     align-items: center;
     justify-content: center;
     flex-direction: column;
+
+    background-color: whitesmoke;
+    opacity: 0.85;
+    padding: 20px;
+    margin-top: 110px;
+
 }
 
 .layout_about section.about h1 {
-    font-weight: 200;
     color: black;
+
+    font-weight: 600;
+    font-size: 35px;
+
 }
 
 .layout_about section.about p {
