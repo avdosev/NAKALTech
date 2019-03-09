@@ -9,11 +9,12 @@
 
 body {
     background: black;
+    min-width: 512px;
 }
 
 .layout_header {
     position: fixed; 
-    top: 0;
+    top: 0; 
     width: 100%;
     padding: 13px 0px;
     display: flex;
@@ -30,7 +31,7 @@ body {
 
 .layout_header a.logo {
     color: rgb(189, 168, 209);
-    font-size: 400%;
+    font-size: 3.3vw;
     padding: 0rem 1rem;
     display: flex;
     margin-right: auto;
@@ -42,19 +43,20 @@ body {
     align-items: center;
     justify-content: space-around;
     margin-left: auto;
-    font-size: 20px;
+    font-size: 1.3vw;
 }
 
 .layout_header nav a {
     color: whitesmoke;
-    padding: 10px;
+    padding: 0 0.5vw;
 }
 
 .layout_about {
     display: flex;
     justify-content: center;
     background-image: url(img/white-abstract-wallpaper-1080p-2048x1152.jpg);
-    height: 800px;
+    background-size: cover; 
+    height: 50vw;
 }
 
 .layout_about section.about {
