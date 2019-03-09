@@ -13,13 +13,15 @@ body {
 }
 
 .layout_header {
-    /*position: fixed; 
-    top: 0; */ /* соре, колян */
+    position: fixed; 
+    top: 0; /* соре, колян */
+    z-index: 120;
     width: 100%;
     padding: 13px 0px;
     display: flex;
     align-items: center;
     background: black;
+    box-shadow: 0 0 3px 5px;
 }
 
 .layout_header .inner {
@@ -33,7 +35,7 @@ body {
     color: rgb(189, 168, 209);
     font-size: 50px;
     padding: 0rem 1rem;
-    display: flex;
+    /* display: flex; */
     margin-right: auto;
     font-family: 'PT Sans';
 }
