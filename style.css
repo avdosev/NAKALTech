@@ -24,12 +24,13 @@ body {
 .layout_header .inner {
     display: flex;
     flex: 1 1 auto !important;
+    flex-wrap: wrap;
     justify-content: center;
 }
 
 .layout_header a.logo {
     color: rgb(189, 168, 209);
-    font-size: 80px;
+    font-size: 400%;
     padding: 0rem 1rem;
     display: flex;
     margin-right: auto;
