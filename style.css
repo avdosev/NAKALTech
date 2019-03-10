@@ -8,7 +8,7 @@
 }
 
 body {
-    background: gray;
+    background: #333333;
     min-width: 512px;
 }
 
@@ -64,7 +64,7 @@ body {
 }
 
 .layout_title {
-    background-image: url(img/optimize.webp);
+    background-image: url(img/optimize.png);
     background-size: cover; 
     height: 100vh;
     overflow: hidden;
