@@ -9,7 +9,8 @@
 
 body {
     background:#333333;
-    min-width: 512px;
+    /* min-width: 512px; */
+    min-width: 769px; /* дальше все плохо */
 }
 
 .layout_header {
@@ -94,7 +95,7 @@ body {
     display: flex;
     justify-content: center;
     background-color: orange;
-    background-image: url(img/s1200WithoutGrey.png);
+    background-image: url(img/white-abstract-wallpaper-1080p-2048x1152.jpg);
     background-size: cover; 
     height: 100vh;
     overflow: hidden;
