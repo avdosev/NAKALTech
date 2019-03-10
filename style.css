@@ -14,8 +14,9 @@ body {
 
 .layout_header {
     position: fixed; 
-    top: 0; /* соре, колян */
+    top: 0;
     z-index: 120;
+    /*  соре, колян */
     width: 100%;
     padding: 13px 0px;
     display: flex;
@@ -43,7 +44,7 @@ body {
 }
 
 .layout_header a.logo img {
-    max-block-size: 3rem;
+    max-block-size: 3vh;
 }
 
 .layout_header nav {
@@ -58,13 +59,39 @@ body {
     color: whitesmoke;
     padding: 0 0.7vw;
 }
+.layout_title * {
+    color: whitesmoke;
+}
+
+.layout_title {
+    background-image: url(img/optimize.webp);
+    background-size: cover; 
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+}
+
+.layout_title section.title {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 20px 20px 20px 80px; 
+    font-size: 10vh;
+}
+
+.layout_title section.title * {
+    mix-blend-mode: difference;
+    color: azure;
+}
 
 .layout_about {
     display: flex;
     justify-content: center;
     background-image: url(img/white-abstract-wallpaper-1080p-2048x1152.jpg);
     background-size: cover; 
-    height: 48vw;
+    height: 100vh;
+    overflow: hidden;
 }
 
 .layout_about section.about {
@@ -72,7 +99,8 @@ body {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    /* align-self: center; */ /* блин хз как лучше*/
+    /* блин хз как лучше*/
+    align-self: center;
     padding: 40px 20px;
     
     background-color: rgba(245, 245, 245, 0.712)
