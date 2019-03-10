@@ -59,6 +59,11 @@ body {
     color: whitesmoke;
     padding: 0 0.7vw;
 }
+.layout_header nav a:hover {
+    background-color: white;
+    transition: 0.5s;
+    color: black;
+}
 .layout_title * {
     color: whitesmoke;
 }
@@ -142,4 +147,8 @@ footer.layout_footer .inner {
     align-content: center;
 }
 
-
+footer.layout_footer .inner a:hover {
+    background-color: white;
+    transition: 0.5s;
+    color: black;
+}
