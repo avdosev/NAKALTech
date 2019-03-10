@@ -1,0 +1,43 @@
+h1 {
+     mix-blend-mode: color-dodge; 
+    font-family: Candara;
+    font-size: 5rem;
+    text-align: center;
+    margin: 0; 
+    padding: 20vh 200px;
+    color: lightsalmon;
+  }
+
+  html,
+  body {
+    margin: 0;
+    background-color: white;
+  }
+
+  body {
+
+    
+  }
+
+  #f {
+    background-image: url(img/hai-nguyen-1275965-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+  }
+  #s {
+    background-image: url(img/florian-klauer-114797-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+  }
+
+  h2 {
+    mix-blend-mode: color-dodge; 
+   font-family: Candara;
+   font-size: 5rem;
+   text-align: center;
+   margin: 0; 
+   padding: 1.98vh 200px;
+   color: lightsalmon;
+ }
