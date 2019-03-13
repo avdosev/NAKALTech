@@ -16,7 +16,9 @@ html {
 body {
     background:#263238;
     /* min-width: 512px; */
-    min-width: 769px; /* дальше все плохо */
+    /* min-width: 796px; */
+     /* дальше все плохо */
+     min-width: 360px;
 }
 
 .layout_header {
@@ -59,7 +61,7 @@ body {
     align-items: center;
     justify-content: space-around;
     /* margin-left: auto; */
-    font-size: 20px;
+    font-size: 2.6vh;
 }
 
 .layout_header nav a {
@@ -154,26 +156,26 @@ body {
     color: black;
 
     font-weight: 600;
-    font-size: 35px;
+    font-size: 5vh;
 }
 
 .layout_about section.about p {
-    font-size: 20px;
+    font-size: 2.6vh;
     padding: 1rem 0;
 }
 
 footer * {
     color: grey;
     text-decoration: none;
-    font-size: 15px;
-    padding: 0 10px;
+    font-size: 2vh;
+    padding: 0 1vh;
 }
 
 footer {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    height: 3vh;
+    height: 5vh;
     background-color: black;
 }
 
@@ -187,4 +189,12 @@ footer.layout_footer .inner a:hover {
     background-color: white;
     transition: 0.5s;
     color: black;
+}
+
+@media screen and (max-width: 432px) {
+    footer *{
+        font-size: 1.5vh;
+        padding: 0 0.5vh;
+        height: 2vh;
+    }
 }
