@@ -152,12 +152,45 @@ body {
 }
 
 .layout_projects {
+    display: flex;
     height:100vh;
     background-size: contain; /* вроде даже интересно выглядит есои потереть грань между левой и правой частью*/
     background-image: url(img/white-abstract-wallpaper-1080p-2048x1152.jpg);
-    background-attachment: fixed;
     background-size: cover;
 }
+
+.layout_projects section.projects{
+    display: flex;
+    margin: 50px 70px;
+}
+
+/* .layout_projects section.projects .idea1{
+    padding: 3vh;
+    width: 8vh; 
+    border-top: 45vh solid rgba(56, 56, 56, 0.512);
+    border-right: 80px solid transparent;
+    transition: width 0.5s ease-in;
+}
+
+.layout_projects section.projects .idea1:hover {
+    width: 500px;
+} */
+
+/* что-то типа того, что я хочу сделать для демонстрации нащих проектов */
+/* правда получается не совсем так, потому что я не могу в фигуры */
+.layout_projects section.projects .idea1{
+    font-size: 2.5vh;
+    padding: 3vh;
+    width: 8vh; 
+    height: 45vh;
+    transform: skew(-20deg);
+    background: rgba(56, 56, 56, 0.512);
+    transition: width 0.5s ease-in;
+}
+
+.layout_projects section.projects .idea1:hover {
+    width: 100vh;
+  }
 
 footer * {
     color: grey;
