@@ -131,9 +131,9 @@ body {
     display: flex;
     justify-content: center;
     background-color: orange;
-    background-image: url(img/white-abstract-wallpaper-1080p-2048x1152.jpg);
+    background-image: url(img/tomek-kaczmarek-165268-unsplash.jpg);
 
-    background-attachment: fixed;
+     background-attachment: fixed; 
     background-size: cover; 
     height: 100vh;
     overflow: hidden;
@@ -162,6 +162,12 @@ body {
 .layout_about section.about p {
     font-size: 2.6vh;
     padding: 1rem 0;
+}
+
+.layout_projects {
+    height:500px;
+    background-size: contain; /* вроде даже интересно выглядит есои потереть грань между левой и правой частью*/
+    background-image: url(img/white-abstract-wallpaper-1080p-2048x1152.jpg);
 }
 
 footer * {
