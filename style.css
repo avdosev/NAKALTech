@@ -118,7 +118,7 @@ body {
 .layout_about {
     display: flex;
     justify-content: center;
-    /* background-color: orange; */
+    /* background-color: orange; */ /* без нее лагает поменьше */
     background-image: url(img/tomek-kaczmarek-1080.jpg);
 
     background-attachment: fixed; 
@@ -130,7 +130,7 @@ body {
 .layout_about section.about {
     display: flex;
     align-items: center;
-    /* justify-content: inherit; */ /* без нее лагает поменьше */
+    /* justify-content: inherit; */ 
     flex-direction: column;
     /* блин хз как лучше*/
     align-self: center;
@@ -230,6 +230,10 @@ footer.layout_footer .inner a:hover {
     .layout_header nav{
         font-size: 2.1vh;
 
+    }
+
+    .layout_title section.title {
+        padding: 20px 20px 20px 20px; /* на мобилках получше */ 
     }
 }
 
