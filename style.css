@@ -42,7 +42,6 @@ body {
     font-size: 50px;
     padding: 0rem 1rem;
     display: inherit;
-    /* align-items: center; */
     justify-content: inherit;
     margin-right: auto;
     /* font-family: 'PT Sans'; */
@@ -56,7 +55,6 @@ body {
     display: inherit;
     align-items: center;
     justify-content: space-around;
-    /* margin-left: auto; */
     font-size: 2.6vh;
 }
 
@@ -100,8 +98,7 @@ body {
     margin-top: 50px;
     justify-self: flex-end;
     align-self: center;
-    /*outline: none; */
-    
+   
 }
 
 .layout_title section.title .down  {
@@ -133,7 +130,6 @@ body {
 .layout_about section.about {
     display: flex;
     align-items: center;
-    /* justify-content: inherit; */ 
     flex-direction: column;
     /* блин хз как лучше*/
     align-self: center;
@@ -167,33 +163,28 @@ body {
     margin: 50px 70px;
 }
 
-/* .layout_projects section.projects .idea1{
-    padding: 3vh;
-    width: 8vh; 
-    border-top: 45vh solid rgba(56, 56, 56, 0.512);
-    border-right: 80px solid transparent;
-    transition: width 0.5s ease-in;
-}
-
-.layout_projects section.projects .idea1:hover {
-    width: 500px;
-} */
-
 /* что-то типа того, что я хочу сделать для демонстрации нащих проектов */
 /* правда получается не совсем так, потому что я не могу в фигуры */
-.layout_projects section.projects .idea1{
+.layout_projects section.projects {
     font-size: 2.5vh;
-    padding: 3vh;
-    width: 8vh; 
-    height: 45vh;
-    transform: skew(-20deg);
-    background: rgba(56, 56, 56, 0.512);
-    transition: width 0.5s ease-in;
 }
 
-.layout_projects section.projects .idea1:hover {
-    width: 100vh;
-  }
+.layout_projects section.projects .idea{
+    height: 40vh;
+    width: 30vh; 
+    transform: skew(-10deg);
+    transition: width 0.5s ease-in;
+    background: rgba(56, 56, 56, 0.712);
+    padding: 3vh;
+    border-radius: 5px;
+    border: solid black 1px;
+    margin-left: 10px;
+
+}
+
+.layout_projects section.projects .idea:hover {
+    width: 50vh;
+}
 
 footer * {
     color: grey;
