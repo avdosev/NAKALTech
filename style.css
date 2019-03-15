@@ -118,7 +118,7 @@ body {
 .layout_about {
     display: flex;
     justify-content: center;
-    background-color: orange;
+    /* background-color: orange; */
     background-image: url(img/tomek-kaczmarek-1080.jpg);
 
     background-attachment: fixed; 
@@ -130,7 +130,7 @@ body {
 .layout_about section.about {
     display: flex;
     align-items: center;
-    /* justify-content: inherit; */
+    /* justify-content: inherit; */ /* без нее лагает поменьше */
     flex-direction: column;
     /* блин хз как лучше*/
     align-self: center;
