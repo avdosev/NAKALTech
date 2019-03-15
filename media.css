@@ -15,3 +15,24 @@
         padding: 20px 20px 20px 20px; /* на мобилках получше */ 
     }
 }
+
+@media screen and (max-width: 1064px) {
+    .layout_projects section.projects{
+        line-height: normal;
+    }
+}
+
+@media screen and (max-width: 660px) {
+    
+    .layout_projects section.projects p{
+        font-size: 3vh;
+    }
+    
+    .layout_projects section.projects h1{
+        font-size: 6vh;
+    }
+
+    .layout_projects section.projects .bth p{
+        font-size: 2vh;
+    }
+}
