@@ -123,14 +123,15 @@ body {
     justify-content: center;
     /* https://habr.com/ru/post/282079/ */
     position: relative;/* не удаляйте иначе лагает */
-    will-change: transform;/* не удаляйте иначе лагает */
-    /* background-color: orange; */ /* без нее лагает поменьше */
     background-image: url(img/tomek-kaczmarek-1080.jpg);
 
     background-attachment: fixed; 
     background-size: cover; 
     height: 100vh;
     overflow: hidden;
+
+    /*will-change: transform;/* не удаляйте иначе лагает */
+
 }
 
 .layout_about section.about {
