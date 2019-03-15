@@ -153,37 +153,8 @@ body {
 .layout_projects {
     display: flex;
     height:100vh;
-    background-size: contain; /* вроде даже интересно выглядит есои потереть грань между левой и правой частью*/
     background-image: url(img/white-abstract-wallpaper-1080p-2048x1152.jpg);
     background-size: cover;
-}
-
-.layout_projects section.projects{
-    display: flex;
-    margin: 50px 70px;
-}
-
-/* что-то типа того, что я хочу сделать для демонстрации нащих проектов */
-/* правда получается не совсем так, потому что я не могу в фигуры */
-.layout_projects section.projects {
-    font-size: 2.5vh;
-}
-
-.layout_projects section.projects .idea{
-    height: 40vh;
-    width: 30vh; 
-    transform: skew(-10deg);
-    transition: width 0.5s ease-in;
-    background: rgba(56, 56, 56, 0.712);
-    padding: 3vh;
-    border-radius: 5px;
-    border: solid black 1px;
-    margin-left: 10px;
-
-}
-
-.layout_projects section.projects .idea:hover {
-    width: 50vh;
 }
 
 footer * {
