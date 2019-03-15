@@ -162,6 +162,7 @@ body {
     display: flex;
     height:100vh;
     background-image: url(img/white-abstract-wallpaper-1080p-2048x1152.jpg);
+    background-image: url(img/white-abstract-wallp.webp), none;
     background-size: cover;
 }
 
