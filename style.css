@@ -50,7 +50,7 @@ body {
     /* font-family: 'PT Sans'; */
 /*идеально*/
     background-image: url(img/logo.png);
-    background-image: url(logo.svg), none;
+    background-image: url(img/logo.svg), none;
 }
 
 .layout_header a.logo img {
@@ -78,7 +78,8 @@ body {
     color: whitesmoke;
 }
 .layout_title {
-    background-image: url(img/optimize.png);
+    background-image: url(img/zebra_no_bcgr.png);
+    background-image: url(img/zebra_no_bcgr.webp), none;
     background-size: cover; 
     height: 100vh;
     overflow: hidden;
@@ -124,7 +125,7 @@ body {
     /* https://habr.com/ru/post/282079/ */
     position: relative;/* не удаляйте иначе лагает */
     background-image: url(img/tomek-kaczmarek-1080.jpg);
-
+    background-image: url(img/tomek-kaczmarek-1080.webp), none;
     background-attachment: fixed; 
     background-size: cover; 
     height: 100vh;
