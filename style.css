@@ -49,8 +49,7 @@ body {
     margin-right: auto;
     /* font-family: 'PT Sans'; */
 /*идеально*/
-    background-image: url(img/logo.png);
-    background-image: url(img/logo.svg), none;
+
 }
 
 .layout_header a.logo img {
