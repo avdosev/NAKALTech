@@ -185,12 +185,14 @@ body {
 .layout_projects section.projects h1{
     font-family: 'Poiret One', 'Lato', sans-serif;
     font-size: 8vh;
+    font-weight: 600;
+    margin-bottom: 5vh;
 }
 
 .layout_projects section.projects .bth{
     display: inline-block;
     line-height: normal;
-    color: white;
+    color: black;
     font-weight: 700;
     text-decoration: none;
     user-select: none;
