@@ -54,6 +54,7 @@ body {
 
 .layout_header a.logo img {
     max-block-size: 3vh;
+    max-height: 3vh;
 }
 
 .layout_header nav {
@@ -77,8 +78,7 @@ body {
     color: whitesmoke;
 }
 .layout_title {
-    background-image: url(img/zebra_no_bcgr.png);
-    background-image: url(img/zebra_no_bcgr.webp), none;
+    background-image: url(img/zebra_no_bcgr.webp), url(img/zebra_no_bcgr.png);
     background-size: cover; 
     height: 100vh;
     overflow: hidden;
@@ -110,7 +110,6 @@ body {
 .layout_title section.title .down  {
     background-color: white;
     border-radius: 50%;
-
 }
 
 .layout_title section.title * {
@@ -123,8 +122,7 @@ body {
     justify-content: center;
     /* https://habr.com/ru/post/282079/ */
     position: relative;/* не удаляйте иначе лагает */
-    background-image: url(img/tomek-kaczmarek-1080.jpg);
-    background-image: url(img/tomek-kaczmarek-1080.webp), none;
+    background-image:url(img/tomek-kaczmarek-1080.webp), url(img/tomek-kaczmarek-1080.jpg);
     background-attachment: fixed; 
     background-size: cover; 
     height: 100vh;
@@ -160,8 +158,7 @@ body {
 .layout_projects {
     display: flex;
     height:100vh;
-    background-image: url(img/white-abstract-wallpaper-1080p-2048x1152.jpg);
-    background-image: url(img/white-abstract-wallp.webp), none;
+    background-image:url(img/white-abstract-wallp.webp), url(img/white-abstract-wallpaper-1080p-2048x1152.jpg);
     background-size: cover;
 }
 
